@@ -9,7 +9,7 @@ void FusionTracker::ProcessSingleFrame(const FrameData &frame_data) {
   tracker_.ProcessNewObservations(fused_detections, objects_);
 }
 void FusionTracker::Visualize() {
-  printf("[visualize] visualize fusion-perception objects\n!");
+  printf("[visualize] visualize fusion-perception objects!\n");
 }
 
 void FusionTracker::DetectObjects(const FrameData &frame_data,
