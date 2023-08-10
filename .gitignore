@@ -1,3 +1,5 @@
 /.cache
 /.vscode
 /build
+/test_data
+*.pth
